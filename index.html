@@ -1,0 +1,1976 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Anime Quotes</title>
+		<!--<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>-->
+		<link rel="stylesheet" href="scripts/jquery.mobile-1.3.1.min.css" />
+		<script src="scripts/jquery-1.10.0.min.js"></script>
+		<script src="scripts/jquery.mobile-1.3.1.min.js"></script>
+		<script>
+			$(document).on('pagebeforeshow', '[data-role="page"]', function(){       
+				var nextpage = $(this).next('div[data-role="page"]');
+				if (nextpage.length > 0) {    
+					$.mobile.activePage.find('[data-role="footer"]').append($('<a>').attr({'href':'#'+nextpage.attr('id'),'data-theme':'a','data-icon':'arrow-r','data-iconpos':'right'}).addClass('ui-btn-right').html('Next').button());
+				}
+				
+				   $('#taiyou').width(293);
+				   $('#taiyou').mouseover(function()
+				   {
+					  $(this).css("cursor","pointer");
+				   });
+				   $("#taiyou").toggle(function()
+					 {$(this).animate({width: "500px"}, 'slow');},
+					 function()
+					 {$(this).animate({width: "293px"}, 'slow');
+				   });
+			});
+			
+			$('.ui-btn-back').live('tap',function() {
+				history.back(); return false;
+			}).live('click',function() {
+				return false;
+			});
+		</script>
+		<style type="text/css">
+			.center-wrapper {
+				text-align: center;
+				width: 300px;
+				margin: 0 auto;
+				margin-left: auto;
+				margin-right: auto;
+				align: center;
+				text-align: center;
+			}
+			.margin-bottom{
+				margin-top:250px;
+				left: 0;
+			}
+			.black-text{
+				color: black;
+			}
+			.title_page{
+				background: transparent url(images/bg.png);
+			}
+			.bg2{
+				background: transparent url(images/bg2.jpg);
+			}
+			.bg3{
+				background: transparent url(images/bg3.jpg);
+			}
+			.bg4{
+				background: transparent url(images/bg4.jpg);
+			}
+			.bg5{
+				background: transparent url(images/bg5.jpg);
+			}
+			.bg6{
+				background: transparent url(images/bg6.jpg);
+			}
+			.bg7{
+				background: transparent url(images/bg7.jpg);
+			}
+			.italic{
+				font-style: oblique;
+			}
+		</style>
+	
+	</head>
+	<body> 
+ 
+		<div data-role="page" id="page1" class="title_page" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+			</div><!-- /header -->
+		 
+			<div data-role="content" style="text-align:center !important;">
+				<img src="images/bulls_eye.png" id="taiyou" style="width:50%;"/>
+				<p>Welcome! Click next to start.</p>
+			</div><!-- /content -->
+			
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+		 
+		 
+		<!-- Start of quotes page -->
+		<div data-role="page" id="page2" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"If you want to know the truth, you must have the courage to accept it."</p>
+				<p class="italic">- Bear (.hack//sign)</p>
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page3" class="bg3" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper margin-bottom">   
+				<p>"As long as I am in your thoughts, my heart will always be with you."</p>
+				<p class="italic">- Frau (O7-Ghost)</p>        
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page4" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Please don't tell me that loving someone is also the same as losing them."</p>
+				<p class="italic">- Teito Klein (O7-Ghost)</p>        
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page5" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Sometimes I see dirt, and I try to follow it with my eyes."</p>
+				<p class="italic">- Osaka (Azumanga Daioh)</p>        
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page6" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"It's important to accept a defeat as a defeat. If a person had never experienced the emotional impact of defeat, he neither learns how to stand back up after he falls nor how to move on. So dwell on your defeat as much as you like. But when you're done, stand up and move on towards your future."</p>
+				<p class="italic">- Yoshii Akira (Baka to Tesuto to Shoukanjuu)</p>        
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page7" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Idiots have idiotic ways of doing things."</p>
+				<p class="italic">- Yuuji Sakamoto (Baka to Tesuto to Shoukanjuu)</p>        
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page8" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"If you're always worried about crushing the ants beneath you... you won't be able to walk."</p>
+				<p class="italic">- Guts (Berserk)</p>        
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page9" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Let's go drink. Didn't you know? Alcohol can cure poison."</p>
+				<p class="italic">- Guts (Berserk)</p>       
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page10" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Do whatever you want now. But if you disturb me, I'll kill you."</p>
+				<p class="italic">- Guts (Berserk)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page11" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Humans are weak... but we want to live... even if we're wounded... or tortured... we feel the pain..."</p>
+				<p class="italic">- Guts (Berserk)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page12" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"My place really was here. I was too foolish and stubborn to notice. But, what I truly hoped for then was here... Why do I always realize it.. When I've already lost it..."</p>
+				<p class="italic">- Guts (Berserk)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page13" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"You have the strongest armour, because you are the weakest!"</p>
+				<p class="italic">- Guts (Berserk)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page14" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"When you meet your God tell him to leave me alone."</p>
+				<p class="italic">- Guts (Berserk)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page15" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Throughout my life... the moments, and people who have defined me... they have all been illuminated... by sparks."</p>
+				<p class="italic">- Guts (Berserk)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page16" class="bg5" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper margin-bottom">    
+				<p>"Memories are frail if you don't mold them."</p>
+				<p class="italic">- Ran Tachibana (Hana ni Arashi)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page17" class="bg4" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper margin-bottom black-text">    
+				<p>"Frustrations will not last forever. Nobody can keep on going without some measure of reward."</p>
+				<p class="italic">- Harada Hideo (Chihayafuru)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page18" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"I'm so tired I can only see what's in front of me... that's all I need to see."</p>
+				<p class="italic">- Mashima Taichi (Chihayafuru)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page19" class="bg6" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper margin-bottom">    
+				<p>"I can't cry, not when I haven't put in the time. But it still hurts."</p>
+				<p class="italic">- Mashima Taichi (Chihayafuru)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page20" class="bg7" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"A woman must always move with grace, whether you're wiping a table or drying sheets. Or in the fight of your life."</p>
+				<p class="italic">- Ooe Kanade (Chihayafuru)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page21" class="bg7" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"You have to do the things you don't want to do, before you can do the things you truly want to do."</p>
+				<p class="italic">- Tsutomu Komano (Chihayafuru)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page22" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"I'm not so much focused on making class A as I'm focused on becoming someone who doesn't run away."</p>
+				<p class="italic">- Mashima Taichi (Chihayafuru)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page23" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Men don't get touchy-feely with each other."</p>
+				<p class="italic">- Mashima Taichi (Chihayafuru)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page24" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Karuta isn't very popular in other countries. But because of that, if you became the best player in Japan, you'll be the best in the world."</p>
+				<p class="italic">- Wataya Arata (Chihayafuru)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page25" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"As long as we have karuta, we'll see each other again, won't we? As long as we keep playing, we'll see each other again."</p>
+				<p class="italic">- Ayase Chihaya (Chihayafuru)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page26" class="bg7" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Love is when it isn't fun to be with that person. It's when nothing goes the way you want. When you're not having fun...and yet, You still want to be with her."</p>
+				<p class="italic">- Mashima Taichi (Chihayafuru)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page27" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"If I can be the best in the world at something, I think it's worth a shot."</p>
+				<p class="italic">- Ayase Chihaya (Chihayafuru)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page28" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Instead of a genius, I would rather have our new member be someone who puts in effort on the mat."</p>
+				<p class="italic">- Mashima Taichi (Chihayafuru)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page29" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Second place hurts the most."</p>
+				<p class="italic">- Nishida Yuusei (Chihayafuru)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page30" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Poetry can transcend any barrier."</p>
+				<p class="italic">- Ooe Kanade (Chihayafuru)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page31" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"When you find yourself wishing that a certain person was also here, that person is like family to you. Regardless of how long or how well you know them."</p>
+				<p class="italic">- Komano Tsutomu (Chihayafuru)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page32" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"A person who never had a teacher can't become a teacher."</p>
+				<p class="italic">- Kitano-Sensei (Chihayafuru)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page33" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Luck of the draw is not about luck or fate at all."</p>
+				<p class="italic">- Harada Hideo (Chihayafuru)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page34" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"It doesn't seem right to let a girl choose me. I would rather choose the girl I devote myself to."</p>
+				<p class="italic">- Mashima Taichi (Chihayafuru)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page35" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Love is good. It changes people, for better or worse. You could look at it as a chance for you to change. The best kind of love helps you grow up."</p>
+				<p class="italic">- Mitsuyoshi Misawa (Tonari no Kaibutsu-kun)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page36" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Nothing that happens is ever forgotten, even if you can't remember it."</p>
+				<p class="italic">- Zeniba (Spirited Away)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page37" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"There's never a reason nor a motive that would ever justify hurting other people."</p>
+				<p class="italic">- Shizuku (HAL)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page38" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"I'm often told I don't show a lot of emotions you see. I've never actually been overwhelmed by emotions. But when I read books, even someone like me can feel and taste the fragments of various emotions."</p>
+				<p class="italic">- Kikuchi Aya (Yuki no Kakera)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page39" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"No matter what I did, the hole in my heart wouldn't close up."</p>
+				<p class="italic">- Shimazaki (Arakawa Under the Bridge)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page40" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Take on life with a big smile."</p>
+				<p class="italic">- Eikichi Onizuka (Great Teacher Onizuka)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page41" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Even if you continue to put up a front, you will never obtain what it is you desire."</p>
+				<p class="italic">- Tamaki Suoh (Ouhran High School HOst Club)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page42" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"There is no such thing as destiny but if there is one, it'd be something you'd be able to create on your own."</p>
+				<p class="italic">- Sasamoto Karen (Kare wa Tomodachi)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page43" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"I'll tear down all the walls you've built around yourself."</p>
+				<p class="italic">- Sawa Nakamura (Aku no Hana)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page44" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"For there to be pain, there has to be kindness. For darkness to stand out, there has to be the sun."</p>
+				<p class="italic">- Natsuki Takaya (Fruits Basket)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page45" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"When I realized this feeling as love, at the same time, immediately, I realized it would end up in rejection."</p>
+				<p class="italic">- Nanase Sakashita (Hanakimi to Koisuru Watashi)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page46" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Why do people have to work anyway? I just want to sleep when I am tired and eat when I am hungry."</p>
+				<p class="italic">- Hiramaru Kazuya (Bakuman)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page47" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"If you are crying, fight against it! If you're regretting, walk forward! Only complaining on your misfortune, you're nothing but a common pig!"</p>
+				<p class="italic">- Ciel Phantomhive (Kuroshitsuji)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page48" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"It's so cool to be good at studying."</p>
+				<p class="italic">- Izumi Miyamura (Horimiya)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page49" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"When a girl smiles, she's as beautiful as a blooming flower."</p>
+				<p class="italic">- Izumi Miyamura (Horimiya)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page50" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"My dear Suzune, you brother is unable to work because of an illness called <b>AOW</b>. AOW is a severe incurable ailment that makes a patient <b>A</b>ble to <b>O</b>nly do what he <b>W</b>ants to do."</p>
+				<p class="italic">- Kagami Junichirou (Denpa Kyoushi)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page51" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"I'm sure opportunities present themselves to everyone. Hard working guys, guys who don't work at all-basically anyone. But, in the end, I think the ones who should be able to seize those opportunities are the hard-working guys."</p>
+				<p class="italic">- Aomine Daiki (Kuroko no Basket)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page52" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Love isn't always sweet."</p>
+				<p class="italic">- Yuyuka (Hirunaka no Ryuusei)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page53" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Sticking through with a lie to protect someone, is probably harder than telling the truth."</p>
+				<p class="italic">- Kawai Maria (Akuma to Love Song)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page54" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"I was always looking for a place... where the bad days didn't keep running by..."</p>
+				<p class="italic">- Yuu (Watashitachi no Shiawase na Jikan)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page55" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"It's when people realize how lonely it is being on their own that they start to become kind."</p>
+				<p class="italic">- Mirajane Strauss (Fairy Tail)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page56" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"When they are cornered people will do anything in order to live, even if it's something they mustn’t do, even if there are differences in degree, as long as it's something they have to do so they can live."</p>
+				<p class="italic">- Ei (Kimi no Knife)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page57" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Happiness isn't something that can be given by someone. To be happy or not is a personal issue."</p>
+				<p class="italic">- Kou Shuurei (Saiunkoku Monogatari)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page58" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"While living, they get hurt and wounded... From these wounds they no longer become round. On the edges, light is refracted and then they sparkle like diamonds."</p>
+				<p class="italic">- Yamamoto Zenjirou (Yamamoto Zenjirou to Moushimasu)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page59" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Freedom without any purpose feels a whole lot like boredom."</p>
+				<p class="italic">- Meiko (Solanin)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page60" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Everyone exists for a reason. As small as it can be... I'm sure you have meaning too."</p>
+				<p class="italic">- Mirajane Strauss (Fairy Tail)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page61" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"There are people in this world that value a boring thing such as their image more than their life!"</p>
+				<p class="italic">- Kuze (Keishichou Tokuhanka 007)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page62" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"If I change people's minds one by one, that's progress."</p>
+				<p class="italic">- Kana (Pureblood Boyfriend)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page63" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Did you know every time you sigh, a little bit of happiness escapes?"</p>
+				<p class="italic">- Senjougahara Hitagi (Bakemonogatari)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page64" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"I'm not lazy, I'm just conserving energy."</p>
+				<p class="italic">- Oreki Houtaro (Hyouka)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page65" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"I don't do anything I don't have to. What I have to do, I do quickly."</p>
+				<p class="italic">- Oreki Houtaro (Hyouka)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page66" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"I'm not against socializing, so long as it's not tiring."</p>
+				<p class="italic">- Oreki Houtaro (Hyouka)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page67" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"I can live without your love."</p>
+				<p class="italic">- Oreki Houtaro (Hyouka)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page68" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"The more inexperienced you are, the more you want to show off."</p>
+				<p class="italic">- Oreki Houtaro (Hyouka)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page69" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"We can't be productive if we have no purpose."</p>
+				<p class="italic">- Chitanda Eru (Hyouka)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page70" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Expectations are born from a despairingly large difference in skill."</p>
+				<p class="italic">- Tanabe Jirou (Hyouka)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page71" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"People get stronger when they've got something to protect!"</p>
+				<p class="italic">- Erza Scarlet (Fairy Tail)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page72" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"You're just running away. I'm moving forward. In a confrontation, a person who wants to help their comrades... is stronger than the person who escapes."</p>
+				<p class="italic">- Mirajane Strauss (Fairy Tail)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page73" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Whatever I do, I'll always be me. I won't tone myself down to fit in."</p>
+				<p class="italic">- Fukube Satoshi (Hyouka)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page74" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"No amount of passion can overcome a lack of technical expertise."</p>
+				<p class="italic">- Irisu Fuyumi (Hyouka)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page75" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Everyone in this world acknowledges as truth only what is convenient for them. They have no other way of living."</p>
+				<p class="italic">- Aizen Sosuke (Bleach)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page76" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"What you see isn't necessarily reality. Everyone has secrets... Things they can't tell others. There are no normal people anywhere."</p>
+				<p class="italic">- Celty Sturluson (Durarara)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page77" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"You believe that the strong exist to cull the weak. To use them as food. But you are mistaken. The strong exist, not to feed off of the weak, but to protect them."</p>
+				<p class="italic">- Kenshin Himura (Rurouni Kenshin)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page78" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"The only person that could take your dreams away is you, by giving up on them."</p>
+				<p class="italic">- Davis (Digimon)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page79" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"There's no meaning to a flower unless it blooms."</p>
+				<p class="italic">- Yamanaka Ino (Naruto)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page80" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"A dropout will beat a genius through hard work."</p>
+				<p class="italic">- Rock Lee (Naruto)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page81" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Live your life so that you'll have no regrets. No matter how hard, no matter how sad, if something is precious to you, protect it with both arms."</p>
+				<p class="italic">- Kaiza (Naruto)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page82" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Go beyond the impossible and kick reason to the curb!"</p>
+				<p class="italic">- Kamina (Tengen Toppa Gurren Lagann)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page83" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"It's easier to crush a dream than realize one, forming a bond is infinitely more difficult than breaking one."</p>
+				<p class="italic">- Ichimaru Gin (Bleach)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page84" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"The stray dog in me is dyed into my bones... All I do is howl at the moon, but I don't have the guts to bite."</p>
+				<p class="italic">- Abarai Renji (Bleach)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page85" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Even when our eyes are closed, there's a whole world out there that lives outside ourselves and our dreams."</p>
+				<p class="italic">- Edward Elric (Full Metal Alchemist)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page86" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Just be yourself and you'll be fine."</p>
+				<p class="italic">- Natsuki Takaya (Fruits Basket)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page87" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"All I need is the power to be able to protect my comrades. So long as I can have the strength to do that, I don't care if I'm weaker than everyone in the world."</p>
+				<p class="italic">- Erza Scarlet (Fairy Tail)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page88" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"...But living creatures are strange. They are made in such a way that they can actualize only what their minuscule minds wish for."</p>
+				<p class="italic">- Sosuke Aizen (Bleach)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page89" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"It's always a lot easier to let something fall apart than it is to try to hold it together."</p>
+				<p class="italic">- Yumichika Ayasegawa (Bleach)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page90" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"People share only one common fate - death."</p>
+				<p class="italic">- Hyuuga Neji (Naruto)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page91" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Lying tears hurt others. Lying smiles hurt oneself."</p>
+				<p class="italic">- C.C. (Code Geass)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page92" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"No matter what happens, I'll keep on moving. Until this life runs out of me, I'll keep on walking."</p>
+				<p class="italic">- Allen Walker (D.Gray-man)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page93" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"The circumstances of one's birth are irrelevant, but it's what you do with the gift of life that determines who you are."</p>
+				<p class="italic">- Mewtwo (Pok&eacute;mon)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page94" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"A choice isn't something someone gives you, it's something you make for yourself."</p>
+				<p class="italic">- Papillon (Buso Renkin)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page95" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"The ocean is so salty because everyone pees in it."</p>
+				<p class="italic">- Son Goku (Dragon Ball Z)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page96" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"The world cannot be changed with pretty words alone."</p>
+				<p class="italic">- Lelouch Lamperouge (Code Geass)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page97" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Hate is a place where a man who can't stand sadness goes."</p>
+				<p class="italic">- Godo (Berserk)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page98" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"If the king doesn't move, then his subjects won't follow."</p>
+				<p class="italic">- Lelouch Lamperouge (Code Geass)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page99" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"Worrying about a warrior's life on the battlefield is only an insult."</p>
+				<p class="italic">- Abarai Renji (Bleach)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		<div data-role="page" id="page100" class="bg2" data-theme="a">
+		 
+			<div data-role="header">
+				<h1>Anime Quotes</h1>
+				<a href="#page1" data-icon="home" data-inline="true" data-transition="fade" class="ui-btn-right" data-iconpos="notext">Home</a>
+			</div><!-- /header -->
+		 
+			<div data-role="content" class="center-wrapper">    
+				<p>"When you have eliminated the impossible, whatever remains, however improbable, must be the truth."</p>
+				<p class="italic">- Shinichi Kudo (Matentantei Conan)</p>        
+				
+			</div><!-- /content -->
+		 
+			<div data-role="footer" data-position="fixed">
+				<h1>&copy;KatrinaYabu</h1>
+				<a href='#' class='ui-btn-left ui-btn-back' data-icon='arrow-l' data-rel="back">Previous</a>
+			</div><!-- /footer -->
+		</div><!-- /page -->
+
+		
+	</body>
+</html>
